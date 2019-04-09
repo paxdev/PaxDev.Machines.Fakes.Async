@@ -1,6 +1,6 @@
 ﻿# Overview
 
-`PaxDev.Machine.Fakes.Async` is a library to help deuce boiler plate 
+`PaxDev.Machine.Fakes.Async` is a library to help reduce boiler plate 
 code associated with using `Machine.Fakes` method mocking with `Task<T>`.
 
 To use simply reference the NuGet package and then write code like the following:
