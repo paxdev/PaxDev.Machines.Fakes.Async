@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>PaxDev.Machine.Specifications.Async</AssemblyName>
+    <RootNamespace>PaxDev.Machine.Specifications.Async</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Machine.Fakes" Version="2.10.0" />
+  </ItemGroup>
+
+</Project>
