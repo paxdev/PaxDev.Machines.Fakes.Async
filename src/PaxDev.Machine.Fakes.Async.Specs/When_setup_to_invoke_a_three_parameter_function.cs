@@ -1,7 +1,7 @@
 ﻿using Machine.Fakes;
 using Machine.Specifications;
 
-namespace PaxDev.Machine.Specifications.Async.Specs
+namespace PaxDev.Machine.Fakes.Async.Specs
 {
     [Subject(typeof(ReturnAsyncExtensions))]
     public class When_setup_to_invoke_a_three_parameter_function : WithFakes

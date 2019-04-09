@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Machine.Fakes;
 
-namespace PaxDev.Machine.Specifications.Async
+namespace PaxDev.Machine.Fakes.Async
 {
     public static class ReturnAsyncExtensions
     {

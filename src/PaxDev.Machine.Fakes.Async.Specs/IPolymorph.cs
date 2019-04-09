@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace PaxDev.Machine.Specifications.Async.Specs
+namespace PaxDev.Machine.Fakes.Async.Specs
 {
     public interface IPolymorph
     {

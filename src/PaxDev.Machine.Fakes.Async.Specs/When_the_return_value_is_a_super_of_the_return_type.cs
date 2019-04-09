@@ -1,7 +1,7 @@
 ﻿using Machine.Fakes;
 using Machine.Specifications;
 
-namespace PaxDev.Machine.Specifications.Async.Specs
+namespace PaxDev.Machine.Fakes.Async.Specs
 {
     [Subject(typeof(ReturnAsyncExtensions))]
     public class When_the_return_value_is_a_super_of_the_return_type : WithFakes
