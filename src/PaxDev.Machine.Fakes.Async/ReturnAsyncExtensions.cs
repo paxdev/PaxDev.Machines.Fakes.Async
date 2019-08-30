@@ -10,7 +10,7 @@ namespace PaxDev.Machine.Fakes.Async
             => queryOptions.Return(Task.FromResult(returnValue));
 
         public static void ReturnAsync<TReturn>(this IQueryOptions<Task<TReturn>> queryOptions, Func<TReturn> valueFunction)
-            => queryOptions.Return(Task.FromResult(valueFunction()));
+            => queryOptions.Return(() => Task.FromResult(valueFunction()));
 
         public static void ReturnAsync<TReturn, T>(this IQueryOptions<Task<TReturn>> queryOptions,
                                                    Func<T, TReturn> valueFunction)
