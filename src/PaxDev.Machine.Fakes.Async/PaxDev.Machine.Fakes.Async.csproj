@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <PackageId>PaxDev.Machine.Fakes.Async</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>PaxDev</Authors>
     <Description>A library to ease the mocking of async methods with Machine.Fakes</Description>
     <RepositoryUrl>https://github.com/paxdev/PaxDev.Machines.Fakes.Async</RepositoryUrl>
